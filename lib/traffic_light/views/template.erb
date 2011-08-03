@@ -1,0 +1,33 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Traffic Light Server</title>
+  <meta name="description" content="Traffic Light Command Center"/>
+  <link rel="stylesheet" type="text/css" href="//yui.yahooapis.com/combo?3.2.0/build/cssreset/reset-min.css"/>
+  <link rel="stylesheet" type="text/css" href="screen.css"/>
+</head>
+<body>
+
+  <div id="container">
+    <h1>Traffic Light</h1>
+    <ul id="traffic_light">
+      <li><a class="red"></a></li>
+      <li><a class="yellow"></a></li>
+      <li><a class="green"></a></li>
+    </ul>
+    <p id="update">Last update: 2 minutes ago</p>
+  </div>
+
+  <div id="options">
+    <h2>Options</h2>
+    <ul>
+      <li><a id="singleLight" class="button">single light mode</a></li>
+      <li><a id="multiLight" class="button">multi light mode</a></li>
+    </ul>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+  <script src="json2.js"></script>
+  <script src="start.js"></script>
+</body>
+</html>

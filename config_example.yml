@@ -1,0 +1,5 @@
+traffic_light:
+  cijoe_build_status:
+    base_url: "http://ci.example.org:123"
+    http_auth_user: "HTTP_BASIC_AUTH_USER"
+    http_auth_password: "HTTP_BASIC_AUTH_PASSWORD"

@@ -1,0 +1,100 @@
+html {
+  background: #2f2f2f;
+  color: #999;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+#traffic_light {
+  margin:10px auto;
+  width:100px;
+}
+
+li a.red {
+  height: 104px;
+  display: block;
+
+  background: url('/red_off.png') center no-repeat;
+}
+
+li a.red.on {
+  background: url('/red_on.png') center no-repeat;
+}
+
+li a.yellow {
+  height: 89px;
+  display: block;
+
+  background: url('/yellow_off.png') center no-repeat;  
+}
+
+li a.yellow.on {
+  background: url('/yellow_on.png') center no-repeat;
+}
+
+li a.green {
+  height: 101px;
+  display: block;
+
+  background: url('/green_off.png') center no-repeat;
+}
+
+li a.green.on {
+  background: url('/green_on.png') center no-repeat;
+}
+
+#container {
+  padding: 10px;
+  background: #fff;
+}
+
+#options {
+  border-top: 7px solid #4D4D4D;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1.2em;
+
+  color: #2f2f2f;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 1.4em;
+  margin: 7px;
+}
+
+ul li {
+  list-style: none;
+}
+
+#options li {
+  margin: 10px;
+  height:30px;
+}
+
+.button {
+  padding: 5px 5px 2px 5px;
+
+  text-transform: uppercase;
+  line-height: 1.6em;
+  font-weight: bold;
+
+  background: none;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.button.active {
+  background: #4d4d4d;
+}
