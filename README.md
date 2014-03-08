@@ -1,4 +1,17 @@
-# Our famous traffic light at the flinc offices
+==============================
+# This project is deprecated!
+==============================
+
+We switched from a Velleman K8055 to a Raspberry PI!
+
+You can find the corresponding projects here:
+
+https://github.com/fabrik42/traffic-light-server
+
+https://github.com/fabrik42/traffic-light-client-raspberry
+
+==============================
+
 
 ![traffic light at the flinc office](http://i.imgur.com/3ZX9R.jpg)
 
